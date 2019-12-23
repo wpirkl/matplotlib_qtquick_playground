@@ -270,7 +270,7 @@ class Form(QObject):
             
             if checked:
                 has_series = True
-                name = self._data.data(model_index, DataSeriesModel.NameRole)                
+                name = self._data.data(model_index, DataSeriesModel.NameRole)
                 values = self._data.data(model_index, DataSeriesModel.DataRole)
                 
                 self.axes.plot(range(len(values)), values, 'o-', label=name)

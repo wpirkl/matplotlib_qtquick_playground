@@ -8,6 +8,6 @@ Item {
     FigureCanvas {
         id: mplView
         objectName : "figure"
-        anchors.fill: parent        
+        anchors.fill: parent
     }
 }

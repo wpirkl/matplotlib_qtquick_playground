@@ -1,10 +1,8 @@
-import QtQuick 2.6
-import Qt.labs.controls 1.0
+import QtQuick 2.12
+import QtQuick.Controls 2.12
+import QtQuick.Layouts 1.12
 import QtQuick.Dialogs 1.2
-import QtQuick.Layouts 1.0
 import QtQuick.Window 2.1
-import Qt.labs.controls.material 1.0
-import Qt.labs.controls.universal 1.0
 
 ApplicationWindow {
     id: root
@@ -12,11 +10,6 @@ ApplicationWindow {
     width: 940
     height: 500
     title: qsTr("Hello World")
-    
-    Material.theme : Material.Light
-    Material.accent : Material.LightGreen
-    Universal.theme : Universal.Light
-    Universal.accent : Universal.Amber
 
     FileDialog {
         id: fileDialog
